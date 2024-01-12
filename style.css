@@ -1,0 +1,94 @@
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-section {
+  margin-left: 10px; /* Adjust as needed */
+}
+
+.right-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.right-section ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+.right-section ul li:first-child {
+  margin-left: 0;
+}
+
+.right-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+.form {
+    /* max-width: 400px;
+    margin: auto auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-top: 30px; 
+    padding-right: 20px; */
+    margin-right: 20px;
+    margin-top: 20px; /* Adjust as needed */
+    text-align: center; /* Center aligns the text content */
+    background-color: blue; /* Change the background color to blue */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    margin-left: auto; /* Set left margin to auto */
+    margin-right: auto; /* Set right margin to auto */
+    max-width: 400px; /* Optional: Set maximum width */
+    background-color: rgb(253, 127, 127);
+    
+    
+  }
+
+  .form h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }

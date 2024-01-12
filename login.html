@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <nav>
+    <div class="navbar-content">
+      <div class="left-section">
+        <h1>Shopify</h1>
+      </div>
+      <div class="right-section">
+        <ul>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="signup.html">Signup</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <form id="loginForm" class="form">
+    <h2>Login</h2>
+    <div class="input-group">
+      <label for="username">Username/Email</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div class="input-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div class="input-group1">
+      <button type="submit">Login</button>
+    </div>
+    <p id="loginError" class="error-message"></p>
+  </form>
+
+  <script src="script.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>

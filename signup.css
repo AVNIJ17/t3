@@ -1,0 +1,17 @@
+.checkbox-label {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .input-group{
+    width: 380px;
+}
+
+.input-group1{
+    width:100px;
+    padding-left: 150px;
+}
